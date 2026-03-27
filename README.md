@@ -1,8 +1,12 @@
 # 👋 Hello, I'm Raju Prajapati
 🚀 AI/ML Developer | Building Real-World Solutions
+
 📍 India
+
 📧 Email: rajukumar9353r@gmail.com
+
 🔗 LinkedIn: www.linkedin.com/in/raju-prajapati-529276302
+
 💻 GitHub: rajuk321
 ---
 
@@ -18,8 +22,7 @@ I am continuously enhancing my technical skills and expanding my knowledge in ar
 ---
 
 ## 💼 Projects
-
-🌿 Crop Disease Detection System (CNN-Based)
+ Crop Disease Detection System (CNN-Based)
 Developed a deep learning model using Convolutional Neural Networks to accurately detect crop diseases from leaf images, helping farmers take timely action.
 📈 Crop Yield Prediction using Machine Learning
 Built a predictive model that analyzes historical and environmental data to estimate crop yield, enabling better decision-making in agriculture.
