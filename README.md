@@ -1,16 +1,52 @@
-## Hi there 👋
+# 👋 Hello, I'm Raju Prajapati
 
-<!--
-**rajuk321/rajuk321** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 AI/ML Developer focusing on real-world projects
 
-Here are some ideas to get you started:
+📍 India
+📧 Email: rajukumar9353r@gmail.com
+🔗 LinkedIn: raju
+💻 GitHub: rajuk321
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 👨‍💻 About Me
+
+I am passionate about Machine Learning and Data Analysis.
+I build AI-based solutions to solve real-world problems, especially in agriculture.
+
+---
+
+## 💼 Projects
+
+* 🌿 Crop Disease Detection (CNN Model)
+* 📈 Yield Prediction using Machine Learning
+* ♻️ Smart Waste Classification
+
+---
+
+## 🛠️ Tech Toolbox
+
+* Python
+* Machine Learning
+* Data Analysis
+* Excel
+
+---
+
+## 🎓 Education
+
+* Bachelor Degree (Teerthankar mahaveer university)
+
+---
+
+## 📜 Certifications
+
+* Machine Learning Course
+* Python Course
+
+---
+
+## 🤝 Let's Connect
+
+I am always open to learning and collaboration.
+Feel free to connect with me 🚀
