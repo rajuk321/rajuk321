@@ -1,7 +1,5 @@
 # 👋 Hello, I'm Raju Prajapati
-
 🚀 AI/ML Developer | Building Real-World Solutions
-
 📍 India
 📧 Email: rajukumar9353r@gmail.com
 🔗 LinkedIn: www.linkedin.com/in/raju-prajapati-529276302
