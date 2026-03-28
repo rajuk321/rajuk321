@@ -1,3 +1,5 @@
+![Banner](https://github.com/rajuk321/rajuk321/blob/main/ChatGPT%20Image%20Mar%2028,%202026,%2005_54_52%20AM.png?raw=true)
+
 # 👋 Hello, I'm Raju Prajapati
 🚀 AI/ML Developer | Building Real-World Solutions
 
