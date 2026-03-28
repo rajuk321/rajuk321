@@ -1,12 +1,8 @@
 # 👋 Hello, I'm Raju Prajapati
 🚀 AI/ML Developer | Building Real-World Solutions
-
 📍 India
-
 📧 Email: rajukumar9353r@gmail.com
-
 🔗 LinkedIn: www.linkedin.com/in/raju-prajapati-529276302
-
 💻 GitHub: rajuk321
 ---
 
@@ -22,23 +18,19 @@ I am continuously enhancing my technical skills and expanding my knowledge in ar
 ---
 
 ## 💼 Projects
- Crop Disease Detection System (CNN-Based)
+Crop Disease Detection System (CNN-Based)
 Developed a deep learning model using Convolutional Neural Networks to accurately detect crop diseases from leaf images, helping farmers take timely action.
-📈 Crop Yield Prediction using Machine Learning
-Built a predictive model that analyzes historical and environmental data to estimate crop yield, enabling better decision-making in agriculture.
-♻️ Smart Waste Classification System
+Crop Yield Prediction using Machine Learning
+Built a predictive model that analyzes historical and environmental data to estimate crop yield, enabling better decision-making in agriculture.                                                 Smart Waste Classification System
 Created an AI-powered system to classify waste into categories like recyclable and organic, promoting efficient waste management and sustainability.
 ---
 
 ## 🛠️ Tech Toolbox
 
-🐍 Python
-Strong foundation in Python programming with hands-on experience in building real-world applications, automation scripts, and data-driven solutions.
-🤖 Machine Learning
-Experience in developing and deploying ML models including classification and regression using libraries like Scikit-learn and TensorFlow.
-📊 Data Analysis
-Skilled in analyzing and interpreting data using tools like Pandas and NumPy to extract meaningful insights and support decision-making.
-📈 Microsoft Excel
+Python
+Strong foundation in Python programming with hands-on experience in building real-world applications, automation scripts, and data-driven solutions.                                  Machine Learning
+Experience in developing and deploying ML models including classification and regression using libraries like Scikit-learn and TensorFlow.                                                     Data Analysis
+Skilled in analyzing and interpreting data using tools like Pandas and NumPy to extract meaningful insights and support decision-making.                                                        Microsoft Excel
 Proficient in data handling, visualization, and reporting using Excel, including formulas, pivot tables, and basic dashboards.
 ---
 
