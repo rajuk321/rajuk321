@@ -8,6 +8,7 @@
 🔗 LinkedIn: www.linkedin.com/in/raju-prajapati-529276302
 
 💻 GitHub: rajuk321
+
 ---
 
 ## 👨‍💻 About Me
@@ -30,6 +31,7 @@ Built a predictive model that analyzes historical and environmental data to esti
 
 Smart Waste Classification System
 Created an AI-powered system to classify waste into categories like recyclable and organic, promoting efficient waste management and sustainability.
+
 ---
 
 ## 🛠️ Tech Toolbox
@@ -52,6 +54,7 @@ Proficient in data handling, visualization, and reporting using Excel, including
  Bachelor’s Degree in [CSE]
  Teerthanker Mahaveer University
  Gained a strong academic foundation with a focus on practical learning, problem-solving, and real-  world project development in the field of technology and data.
+ 
 
 ---
 
