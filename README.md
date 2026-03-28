@@ -47,6 +47,7 @@ Skilled in analyzing and interpreting data using tools like Pandas and NumPy to 
 
 Microsoft Excel
 Proficient in data handling, visualization, and reporting using Excel, including formulas, pivot tables, and basic dashboards.
+
 ---
 
 ## 🎓 Education
@@ -59,12 +60,16 @@ Proficient in data handling, visualization, and reporting using Excel, including
 ---
 
 ## 📜 Certifications & Training
+
 🎓 Machine Learning Certification
     Successfully completed a comprehensive course covering supervised and unsupervised learning,        model building, and performance evaluation techniques.
+    
 🐍 Python Programming Certification
    Completed a structured course focused on core Python concepts, problem-solving, and real-world      application development.
+   
 🤝 National Service Scheme (NSS)
    Actively participated in NSS activities, contributing to community service, social awareness        campaigns, and teamwork-based initiatives, which helped develop leadership and communication        skills.
+   
 🏢 Industrial Training / Internship
    Completed practical training in the field of technology, gaining hands-on experience in real-       world projects, teamwork, and understanding of industry-level workflows.
 
