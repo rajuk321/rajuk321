@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="hi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raju Prajapati | B.Tech CSE Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+        :root {
+            --bg-dark: #030303;
+            --accent-emerald: #10b981;
+            --accent-violet: #8b5cf6;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: #ffffff;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .glow {
+            position: fixed;
+            width: 40vw;
+            height: 40vw;
+            border-radius: 50%;
+            filter: blur(100px);
+            z-index: -1;
+            opacity: 0.12;
+            pointer-events: none;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.4s ease;
+        }
+
+        .skill-badge {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            padding: 0.5rem 1.5rem;
+            border-radius: 99px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: #10b981;
+        }
+
+        .gradient-text {
+            background: linear-gradient(90deg, #10b981, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .social-link-card {
+            background: rgba(0, 74, 80, 0.03);
+            border: 1px solid rgba(62, 149, 147, 0.08);
+            border-radius: 20px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            text-decoration: none;
+            color: rgb(212, 147, 147);
+            display: block;
+        }
+
+        .social-link-card:hover {
+            transform: translateY(-8px);
+            background: rgba(16, 185, 129, 0.05);
+            border-color: var(--accent-emerald);
+        }
+
+        section { padding: 100px 0; }
+    </style>
+</head>
+<body>
+
+    <div class="glow top-[-5%] left-[-5%]" style="background: var(--accent-violet);"></div>
+    <div class="glow bottom-[-5%] right-[-5%]" style="background: var(--accent-emerald);"></div>
+
+    <!-- Navigation -->
+    
+<!-- NAVBAR -->
+<header class="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-6xl">
+<nav class="backdrop-blur-xl bg-white/5 border border-white/10 rounded-full px-8 py-4 flex items-center justify-between shadow-2xl">
+
+    <!-- Logo -->
+    <a href="#home" class="text-3xl font-black tracking-tight">
+        RAJU.<span class="text-emerald-400">Prajapati</span>
+    </a>
+
+    <!-- Menu -->
+    <ul class="hidden md:flex gap-8 text-sm font-bold uppercase tracking-widest">
+        <li><a href="#home" class="hover:text-emerald-400 transition-all">Home</a></li>
+        <li><a href="#about" class="hover:text-emerald-400 transition-all">About</a></li>
+        <li><a href="#skills" class="hover:text-emerald-400 transition-all">Skills</a></li>
+        <li><a href="#projects" class="hover:text-emerald-400 transition-all">Projects</a></li>
+        <li><a href="#contact" class="hover:text-emerald-400 transition-all">Contact</a></li>
+    </ul>
+
+    <!-- Hire Me -->
+    <a href="#contact"
+       class="px-6 py-3 bg-white text-black rounded-full font-black text-xs uppercase tracking-widest hover:bg-emerald-400 transition-all hover:scale-105">
+       Hire Me
+    </a>
+
+</nav>
+</header>
+
+
+<!-- HERO SECTION -->
+<section id="home" class="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-32">
+
+    <!-- Tag -->
+    <div class="px-6 py-3 rounded-full border border-white/10 bg-white/5 mb-8 shadow-xl">
+        <span class="text-xs font-bold uppercase tracking-[4px] text-emerald-400">
+            Building The Future With Code
+        </span>
+    </div>
+
+    <!-- Main Name -->
+    <h1 class="text-6xl md:text-9xl font-black tracking-tighter leading-none mb-6">
+        <span class="text-white drop-shadow-[0_0_20px_rgba(255,255,255,0.2)]">RAJU</span>
+        <span class="bg-gradient-to-r from-emerald-400 via-cyan-400 to-purple-500 bg-clip-text text-transparent animate-pulse">
+            PRAJAPATI
+        </span>
+    </h1>
+
+    <!-- Typing -->
+    <p class="text-2xl md:text-4xl text-slate-300 font-semibold mb-10">
+        I am <span id="typed" class="text-emerald-400"></span>
+    </p>
+
+    <!-- Buttons -->
+    <div class="flex flex-wrap justify-center gap-4">
+
+        <!-- Projects -->
+        <a href="#projects"
+           class="px-10 py-5 bg-emerald-500 text-black font-black rounded-2xl uppercase text-xs tracking-widest hover:scale-105 hover:shadow-[0_0_25px_rgba(16,185,129,0.5)] transition-all">
+            View Projects 
+        </a>
+
+        <!-- Download CV -->
+        <a href="Raju_IT.pdf" download="Raju_Prajapati_Resume.pdf"
+           class="px-10 py-5 border border-white/10 rounded-2xl font-black uppercase text-xs tracking-widest hover:bg-white/5 transition-all flex items-center gap-2">
+           <i data-lucide="download" class="w-4 h-4"></i>
+           Download CV
+        </a>
+
+        <!-- View CV -->
+        <a href="Raju_IT.pdf" target="_blank"
+           class="px-10 py-5 border border-emerald-500 text-emerald-400 rounded-2xl font-black uppercase text-xs tracking-widest hover:bg-emerald-500 hover:text-black transition-all flex items-center gap-2">
+           <i data-lucide="eye" class="w-4 h-4"></i>
+           View CV
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- TYPING EFFECT -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+new Typed("#typed", {
+    strings: [
+        "Python Developer",
+        "Frontend Developer",
+        "Machine Learning Engineer",
+        "Portfolio Designer",
+        "Freelancer",
+        "Problem Solver"
+    ],
+    typeSpeed: 18,
+    backSpeed: 10,
+    backDelay: 2500,
+    startDelay: 1000,   // start me wait
+    smartBackspace: true,
+    loop: true
+});
+</script>
+
+    <!-- About Section -->
+    <section id="about" class="max-w-6xl mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+            <div class="relative" data-aos="fade-right">
+                <div class="aspect-square rounded-[3rem] overflow-hidden glass-card p-4">
+                    <!-- Photo added here -->
+                    <div class="w-full h-full bg-neutral-900 rounded-[2.5rem] flex items-center justify-center border border-white/5 overflow-hidden">
+                     <img src="image.jpg" alt="Raju prajapati"
+                           style="width:100%; height:100%; object-fit:cover;">
+                        
+                    </div>
+                </div>
+                <div class="absolute -bottom-6 -right-6 bg-emerald-500 p-6 rounded-3xl hidden md:block">
+                    <p class="text-black font-black text-2xl leading-none">Software<br><span class="text-sm uppercase tracking-widest">Engineer</span></p>
+                </div>
+            </div>
+            
+            <div data-aos="fade-left">
+                <h2 class="text-4xl font-black mb-6 uppercase tracking-tighter">About<span class="text-emerald-500">Me</span></h2>
+                <p class="text-slate-400 text-lg leading-relaxed mb-6">
+                    My name is <strong>Raju Prajapati</strong>.I am currently completing my Bachelor of Technology (B.Tech) in Computer Science Engineering from  <strong>Teerthanker Mahaveer University (TMU).
+                </p>
+                <p class="text-slate-400 text-lg leading-relaxed mb-6">
+                    I am passionate about software development <strong>problem-solving,</strong>.and creating innovative projects using modern technologies. <strong>I have a strong interest in Machine Learning, Web Development, and programming.
+                </p>
+                <p class="text-slate-400 text-lg leading-relaxed mb-8">
+                    I belong to Gunnaur, Sambhal, <strong>Uttar Pradesh, India.</strong>I am a hardworking and enthusiastic learner who is always eager to improve my technical skills and gain new knowledge.
+                </p>
+                <div class="grid grid-cols-2 gap-6">
+                    <div>
+                        <p class="text-[10px] font-bold text-emerald-500 uppercase tracking-widest mb-1">Email</p>
+                        <p class="text-sm font-medium">rajukumar9353r@gmail.com</p>
+                    </div>
+                    <div>
+                        <p class="text-[10px] font-bold text-emerald-500 uppercase tracking-widest mb-1">Phone</p>
+                        <p class="text-sm font-medium">+91 7906309353</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="max-w-6xl mx-auto px-6">
+    <div class="text-center mb-16">
+        <h2 class="text-4xl font-black uppercase tracking-tighter mb-4">
+            Technical <span class="text-emerald-500">Skills</span>
+        </h2>
+        <p class="text-slate-500">The Core Technologies I Work On</p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+
+        <!-- Skill 1 -->
+        <div class="glass-card p-8 rounded-3xl text-center group hover:border-emerald-500/50 transition-all">
+            <i data-lucide="code" class="w-12 h-12 mx-auto mb-4 text-orange-500"></i>
+            <h4 class="font-bold">HTML</h4>
+        </div>
+
+        <!-- Skill 2 -->
+        <div class="glass-card p-8 rounded-3xl text-center group hover:border-emerald-500/50 transition-all">
+            <i data-lucide="file-code" class="w-12 h-12 mx-auto mb-4 text-blue-500"></i>
+            <h4 class="font-bold">CSS</h4>
+        </div>
+
+        <!-- Skill 3 -->
+        <div class="glass-card p-8 rounded-3xl text-center group hover:border-emerald-500/50 transition-all">
+            <i data-lucide="braces" class="w-12 h-12 mx-auto mb-4 text-yellow-500"></i>
+            <h4 class="font-bold">JavaScript</h4>
+        </div>
+
+        <!-- Skill 4 -->
+        <div class="glass-card p-8 rounded-3xl text-center group hover:border-emerald-500/50 transition-all">
+            <i data-lucide="server" class="w-12 h-12 mx-auto mb-4 text-emerald-500"></i>
+            <h4 class="font-bold">Node.js</h4>
+        </div>
+
+        <!-- Skill 5 -->
+        <div class="glass-card p-8 rounded-3xl text-center group hover:border-emerald-500/50 transition-all">
+            <i data-lucide="terminal" class="w-12 h-12 mx-auto mb-4 text-blue-400"></i>
+            <h4 class="font-bold">Python</h4>
+        </div>
+
+        <!-- Skill 6 -->
+        <div class="glass-card p-8 rounded-3xl text-center group hover:border-emerald-500/50 transition-all">
+            <i data-lucide="database" class="w-12 h-12 mx-auto mb-4 text-pink-500"></i>
+            <h4 class="font-bold">MySQL</h4>
+        </div>
+
+        <!-- Skill 7 -->
+        <div class="glass-card p-8 rounded-3xl text-center group hover:border-emerald-500/50 transition-all">
+            <i data-lucide="brain-circuit" class="w-12 h-12 mx-auto mb-4 text-violet-500"></i>
+            <h4 class="font-bold">Machine Learning</h4>
+        </div>
+
+        <!-- Skill 8 -->
+        
+
+        <!-- Skill 9 -->
+        <div class="glass-card p-8 rounded-3xl text-center group hover:border-emerald-500/50 transition-all">
+            <i data-lucide="layout-dashboard" class="w-12 h-12 mx-auto mb-4 text-cyan-500"></i>
+            <h4 class="font-bold">Bootstrap</h4>
+        </div>
+
+        <!-- Skill 10 -->
+        <div class="glass-card p-8 rounded-3xl text-center group hover:border-emerald-500/50 transition-all">
+            <i data-lucide="globe" class="w-12 h-12 mx-auto mb-4 text-green-400"></i>
+            <h4 class="font-bold">Web Development</h4>
+        </div>
+
+        <!-- Skill 11 -->
+        <div class="glass-card p-8 rounded-3xl text-center group hover:border-emerald-500/50 transition-all">
+            <i data-lucide="cpu" class="w-12 h-12 mx-auto mb-4 text-red-500"></i>
+            <h4 class="font-bold">AI</h4>
+        </div>
+
+        <!-- Skill 12 -->
+        <div class="glass-card p-8 rounded-3xl text-center group hover:border-emerald-500/50 transition-all">
+            <i data-lucide="monitor-smartphone" class="w-12 h-12 mx-auto mb-4 text-indigo-500"></i>
+            <h4 class="font-bold">Responsive Design</h4>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="max-w-6xl mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-black uppercase tracking-tighter mb-4">My<span class="text-emerald-500">Projects</span></h2>
+        </div>
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Project 1 -->
+            <div class="glass-card rounded-[2.5rem] overflow-hidden group project-card" data-aos="fade-up">
+                <div class="h-64 bg-emerald-500/10 relative overflow-hidden flex items-center justify-center">
+                    <i data-lucide="sprout" class="w-20 h-20 text-emerald-500 opacity-20"></i>
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                    <div class="absolute bottom-6 left-6">
+                        <span class="skill-badge mb-3 inline-block">ML & Python</span>
+                        <h3 class="text-2xl font-black uppercase">Crop Health</h3>
+                    </div>
+                </div>
+                <div class="p-8">
+                    <p class="text-slate-400 mb-6">This AI-powered project detects crop diseases and analyzes plant health using Machine Learning.</p>
+                    <a href="https://github.com/rajuk321/Hotel-Management-System" target="_blank" class="inline-flex items-center gap-2 text-violet-400 font-bold text-sm hover:gap-4 transition-all">View Project <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="glass-card rounded-[2.5rem] overflow-hidden group project-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="h-64 bg-violet-500/10 relative overflow-hidden flex items-center justify-center">
+                    <i data-lucide="hotel" class="w-20 h-20 text-violet-500 opacity-20"></i>
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                    <div class="absolute bottom-6 left-6">
+                        <span class="skill-badge mb-3 inline-block" style="color:#8b5cf6; border-color: rgba(139,92,246,0.2); background: rgba(139,92,246,0.1);">Node.js & Web</span>
+                        <h3 class="text-2xl font-black uppercase">Hotel Management</h3>
+                    </div>
+                </div>
+                <div class="p-8">
+                    <p class="text-slate-400 mb-6">A smart management system for hotel bookings, customer records, and staff operations.</p>
+                    <a href="https://github.com/rajuk321/Hotel-Management-System" target="_blank" class="inline-flex items-center gap-2 text-violet-400 font-bold text-sm hover:gap-4 transition-all">View Project <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Section -->
+  <!-- FONT AWESOME (Head ke andar lagao) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+<!-- SOCIAL SECTION -->
+<section id="social" class="max-w-6xl mx-auto px-6 py-20">
+
+    <!-- Heading -->
+    <div class="text-center mb-16">
+        <h2 class="text-5xl font-black uppercase tracking-tighter">
+            Connect <span class="text-emerald-500">Me</span>
+        </h2>
+    </div>
+
+    <!-- Cards -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/raju-prajapati-529276302" target="_blank"
+           class="social-link-card group bg-white/5 border border-white/10 rounded-3xl p-8 text-center hover:-translate-y-2 hover:border-blue-500 transition-all duration-300">
+
+            <i class="fab fa-linkedin text-5xl text-blue-500 mb-5 block"></i>
+            <span class="text-sm font-bold uppercase tracking-widest text-white">LinkedIn</span>
+        </a>
+
+        <!-- GitHub -->
+        <a href="https://github.com/rajuk321" target="_blank"
+           class="social-link-card group bg-white/5 border border-white/10 rounded-3xl p-8 text-center hover:-translate-y-2 hover:border-white transition-all duration-300">
+
+            <i class="fab fa-github text-5xl text-white mb-5 block"></i>
+            <span class="text-sm font-bold uppercase tracking-widest text-white">GitHub</span>
+        </a>
+
+        <!-- Instagram -->
+        <a href="https://instagram.com/raju_790630" target="_blank"
+           class="social-link-card group bg-white/5 border border-white/10 rounded-3xl p-8 text-center hover:-translate-y-2 hover:border-pink-500 transition-all duration-300">
+
+            <i class="fab fa-instagram text-5xl text-pink-500 mb-5 block"></i>
+            <span class="text-sm font-bold uppercase tracking-widest text-white">Instagram</span>
+        </a>
+
+        <!-- Phone -->
+        <a href="tel:7906309353"
+           class="social-link-card group bg-white/5 border border-white/10 rounded-3xl p-8 text-center hover:-translate-y-2 hover:border-emerald-500 transition-all duration-300">
+
+            <i class="fas fa-phone text-5xl text-emerald-500 mb-5 block"></i>
+            <span class="text-sm font-bold uppercase tracking-widest text-white">Call Me</span>
+        </a>
+
+    </div>
+
+</section>
+
+    <!-- Contact Section -->
+   <section id="contact" class="max-w-6xl mx-auto px-6 py-20">
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+        <!-- Left Side -->
+        <div>
+            <h2 class="text-5xl font-black uppercase tracking-tighter mb-6 leading-none">
+                Let's <br>
+                <span class="text-emerald-500">Connect.</span>
+            </h2>
+
+            <div class="space-y-8 mt-12">
+
+                <!-- Email -->
+                <div class="flex items-center gap-6 group">
+                    <div class="w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center group-hover:bg-emerald-500 group-hover:text-black transition-all">
+                        <i data-lucide="mail"></i>
+                    </div>
+                    <div>
+                        <p class="text-[10px] font-bold uppercase tracking-widest text-slate-500">Mail Me</p>
+                        <p class="text-lg font-bold">rajukumar9353r@gmail.com</p>
+                    </div>
+                </div>
+
+                <!-- Phone -->
+                <div class="flex items-center gap-6 group">
+                    <div class="w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center group-hover:bg-emerald-500 group-hover:text-black transition-all">
+                        <i data-lucide="phone"></i>
+                    </div>
+                    <div>
+                        <p class="text-[10px] font-bold uppercase tracking-widest text-slate-500">Call Me</p>
+                        <p class="text-lg font-bold">+91 7906309353</p>
+                    </div>
+                </div>
+
+                <!-- WhatsApp -->
+                <div class="flex items-center gap-6 group">
+                    <div class="w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center group-hover:bg-green-500 group-hover:text-black transition-all">
+                        <i data-lucide="message-circle"></i>
+                    </div>
+                    <div>
+                        <p class="text-[10px] font-bold uppercase tracking-widest text-slate-500">WhatsApp</p>
+                        <p class="text-lg font-bold">Chat Directly</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Right Side Form -->
+        <div class="glass-card p-10 rounded-[2.5rem]">
+            <form id="contactForm" class="space-y-6">
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <input type="text" id="name" placeholder="Naam"
+                        class="w-full bg-white/5 border border-white/10 p-4 rounded-xl outline-none focus:border-emerald-500 transition-all"
+                        required>
+
+                    <input type="email" id="email" placeholder="Email"
+                        class="w-full bg-white/5 border border-white/10 p-4 rounded-xl outline-none focus:border-emerald-500 transition-all"
+                        required>
+                </div>
+
+                <textarea id="message" placeholder="Message..." rows="4"
+                    class="w-full bg-white/5 border border-white/10 p-4 rounded-xl outline-none focus:border-emerald-500 transition-all"
+                    required></textarea>
+
+                <!-- Buttons -->
+                <div class="grid md:grid-cols-2 gap-4">
+
+                    <!-- Email -->
+                    <button type="button" onclick="sendEmail()"
+                        class="w-full bg-emerald-500 text-black py-4 rounded-xl font-black uppercase text-xs tracking-widest hover:bg-emerald-400 transition-all">
+                        Send Email
+                    </button>
+
+                    <!-- WhatsApp -->
+                    <button type="button" onclick="sendWhatsApp()"
+                        class="w-full bg-green-500 text-black py-4 rounded-xl font-black uppercase text-xs tracking-widest hover:bg-green-400 transition-all">
+                        WhatsApp
+                    </button>
+
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</section>
+
+<script>
+function sendWhatsApp() {
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let message = document.getElementById("message").value;
+
+    let text = `Hello Raju,%0AName: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
+    let phone = "917906309353";
+
+    window.open(`https://wa.me/${phone}?text=${text}`, "_blank");
+}
+
+function sendEmail() {
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let message = document.getElementById("message").value;
+
+    let subject = `New Message from ${name}`;
+    let body = `Name: ${name}%0AEmail: ${email}%0A%0AMessage:%0A${message}`;
+
+    window.location.href = `mailto:rajukumar9353r@gmail.com?subject=${subject}&body=${body}`;
+}
+</script>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-white/5 text-center px-6">
+        <p class="text-[10px] font-bold text-slate-500 uppercase tracking-[0.4em]">
+            © 2026 Raju Prajapati — B.Tech CSE (TMU) | Mob: +91 7906309353
+        </p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+        lucide.createIcons();
+
+        new Typed('#typed', {
+            strings: ['B.Tech CSE Student.', 'Node.js Developer.', 'ML Enthusiast.', 'Python Coder.'],
+            typeSpeed: 60,
+            backSpeed: 40,
+            backDelay: 2000,
+            loop: true
+        });
+
+        document.getElementById('contactForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Dhanyawad Raju! Aapka message bhej diya gaya hai.');
+            e.target.reset();
+        });
+    </script>
+</body>
+</html>
